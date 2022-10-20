@@ -1,0 +1,231 @@
+* {
+   padding: 0;
+   margin: 0;
+}
+
+body {
+   background-color: rgb(249, 247, 247);
+}
+
+.nav {
+   width: 100%;
+   min-height: .45in;
+   background-color: #303030;
+}
+
+.between {
+   width: 100%;
+   min-height: 2.3in;
+   background-color: black;
+}
+
+.between div {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   top: .3in;
+}
+
+.buttons-section {
+   width: 100%;
+   min-height: .5in;
+   background-color: rgb(0, 0, 0);
+}
+
+.buttons-section ul {
+   list-style: none;
+   display: flex;
+}
+
+.buttons-section li {
+   padding-inline: 20px;
+}
+
+.buttons-section div {
+   position: relative;
+   display: flex;
+   justify-content: center;
+}
+
+.buttons-section button {
+   font-size: 15px;
+   border-radius: 50px;
+   background-color: #0271E2;
+   color: white;
+   border-color: transparent;
+   width: .7in;
+   height: .4in;
+}
+
+.buttons-section a {
+   position: relative;
+   top: .05in;
+   font-size: .23in;
+   text-decoration: none;
+   color: #0271E2;
+}
+
+
+.header {
+   width: 100%;
+   min-height: 4in;
+   background-color: black;
+}
+
+.header div {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   top: .5in
+}
+
+.header div img {
+   height: 3.5in;
+}
+
+.between2 {
+   width: 100%;
+   min-height: 3.5in;
+   background-color: rgb(255, 255, 255);
+}
+
+.between2 div {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   top: 1in;
+}
+
+.buttons-section {
+   width: 100%;
+   min-height: .5in;
+   background-color: rgb(0, 0, 0);
+}
+
+.buttons-section2 ul {
+   list-style: none;
+   display: flex;
+}
+
+.buttons-section2 li {
+   padding-inline: 20px;
+}
+
+.buttons-section2 div {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   background-color: white;
+}
+
+.buttons-section2 button {
+   font-size: 15px;
+   border-radius: 50px;
+   background-color: #0271E2;
+   color: white;
+   border-color: transparent;
+   width: .7in;
+   height: .4in;
+}
+
+.buttons-section2 a {
+   position: relative;
+   top: .05in;
+   font-size: .23in;
+   text-decoration: none;
+   color: #0271E2;
+}
+
+.header2 {
+   width: 100%;
+   min-height: 7.5in;
+   background-color: rgb(255, 255, 255);
+}
+
+.header2 img {
+   height: 7in;
+}
+
+.header2 div {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   top: .5in;
+}
+
+.header3 {
+   width: 100%;
+   min-height: 9in;
+   background-color: rgb(251,251,253);
+   background-image: url("https://www.apple.com/v/iphone/home/bk/images/overview/hero/iphone_se_hero__gd586pazxqqa_large_2x.jpg");
+   background-repeat: no-repeat;
+   background-size: 5.3in;
+   background-position-x: 65%;
+}
+
+.header3 img {
+   position: relative;
+   width: 24%;
+   top: 23vh;
+   left: 16vw;
+}
+
+.header3 button {
+   position: relative;
+   font-size: 15px;
+   border-radius: 50px;
+   background-color: #0271E2;
+   color: white;
+   border-color: transparent;
+   width: .7in;
+   height: .4in;
+   top: 2.5in;
+   right: .3in;
+}
+
+.header3 a {
+   position: relative;
+   text-decoration: none;
+   font-size: .23in;
+   color: #0271E2;
+   top: 2.5in;
+}
+
+.last {
+   position: relative;
+   width: 100%;
+   min-height: 9in;
+   background-color: white;
+}
+
+.text {
+   z-index: 1;
+   position: absolute;
+   left: 4.55in;
+   top: 3.15in;
+}
+
+.bg-div {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   top: .4in;
+}
+
+.bg-div img {
+   border-radius: 50px;
+}
+
+.last button {
+   z-index: 2;
+   font-size: 17px;
+   position: absolute;
+   top: 5.2in;
+   left: 4.8in;
+   background-color: white;
+   border: transparent;
+   color: black;
+   border-radius: 20px;
+   width: 1.5in;
+   height: .4in;
+}
